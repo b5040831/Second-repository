@@ -11,6 +11,12 @@ class Course {
 	Date endDate
 	int numberOfStudents
 	double tuitionFees
+	Boolean isItRunning
+
+    double calculateFees()
+	{
+	4*tuitionFees
+	}
 
     static constraints = {
 	department blank:false, nullable:false
