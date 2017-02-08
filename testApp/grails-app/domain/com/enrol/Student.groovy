@@ -8,7 +8,9 @@ class Student {
 	String email
 	String username
 	String password
-	String course
+	Course course
+
+    static hasMany=[modules:Module]
 
     static constraints = {
 	name nullable:false, blank: false

@@ -3,7 +3,7 @@ package com.enrol
 class BootStrap {
 
     def init = { servletContext ->
-	def lect1=new Lecturer(
+	/*def lect1=new Lecturer(
 		fullName: 'Mr Bean',
 		post:'Lecturer',
 		subject:'Web Design',
@@ -38,7 +38,7 @@ class BootStrap {
 		studyMode:'Full-time',
 		tuitionFees:9000,
 		description:"'Lorem ipsum Aidan Black'"
-	).save()
+	).save()*/
 		
     }
     def destroy = {

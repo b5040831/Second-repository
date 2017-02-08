@@ -18,6 +18,8 @@ class Course {
 	4*tuitionFees
 	}
 
+    static hasMany=[students:Student,lecturers:Lecturer,modules:Module]
+
     static constraints = {
 	department blank:false, nullable:false
 	title blank:false, nullable:false
