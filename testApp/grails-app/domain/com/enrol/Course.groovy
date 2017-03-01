@@ -13,9 +13,14 @@ class Course {
 	double tuitionFees
 	Boolean isItRunning
 
-    double calculateFees()
+	String toString()
 	{
-	4*tuitionFees
+		return title		
+	}
+
+	double calculateFees()
+	{
+		4*tuitionFees
 	}
 
     static hasMany=[students:Student,lecturers:Lecturer,modules:Module]
