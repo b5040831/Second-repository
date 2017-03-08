@@ -11,6 +11,11 @@ class Lecturer {
 	String userName
 	String password
 
+	String toString()
+	{
+		return fullName		
+	}
+
     static hasMany=[courses:Course,modules:Module]
     static belongsTo=Course
 

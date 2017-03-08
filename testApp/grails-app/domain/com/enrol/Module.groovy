@@ -8,6 +8,11 @@ class Module {
 	String course
 	String description
 
+	String toString()
+	{
+		return title		
+	}
+
     static hasMany=[courses:Course, students:Student]
     static belongsTo=[Course,Student]
 

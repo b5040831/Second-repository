@@ -10,6 +10,11 @@ class Student {
 	String password
 	Course course
 
+	String toString()
+	{
+		return name		
+	}
+
     static hasMany=[modules:Module]
 
     static constraints = {
